@@ -12,11 +12,12 @@ int main()
 {
 	int a = 5, b = 8;
 
-	cout << "a = " << a << ", b = " << b << std::endl;
+	cout << "a = " << a << ", b = " << b << endl;
 
 	swap(a, b); 
 
-	cout << "a = " << a << ", b = " << b << std::endl;
+	cout << "a = " << a << ", b = " << b << endl;
 
 
 }
+

@@ -17,7 +17,4 @@ int main()
 	swap(a, b); 
 
 	cout << "a = " << a << ", b = " << b << endl;
-
-
 }
-

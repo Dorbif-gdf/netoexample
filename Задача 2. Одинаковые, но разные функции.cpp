@@ -7,7 +7,7 @@ namespace addition {
     }
 }
 
-namespace Subtraction {
+namespace subtraction {
     int calc(int x, int y) {
         return x - y;
     }
@@ -33,7 +33,8 @@ int main() {
 
     cout << "x = " << x << ", y = " << y << endl;
     cout << "Сложение: " << addition::calc(x, y) << endl;
-    cout << "Вычитание: " << Subtraction::calc(x, y) << endl;
+    cout << "Вычитание: " << subtraction::calc(x, y) << endl;
     cout << "Умножение: " << multiplication::calc(x, y) << endl;
     cout << "Деление: " << division::calc(x, y) << endl;
+
 }

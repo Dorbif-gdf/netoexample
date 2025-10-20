@@ -3,7 +3,8 @@
 #include <Windows.h>
 using namespace std;
 
-int main() {
+int main() 
+{
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
 
@@ -20,4 +21,5 @@ int main() {
     } while (guess != secret);
 
     cout << "Правильно! Вы победили! Загаданное слово — " << secret << endl;
+
 }

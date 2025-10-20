@@ -21,5 +21,4 @@ int main()
     } while (guess != secret);
 
     cout << "Правильно! Вы победили! Загаданное слово — " << secret << endl;
-
 }
